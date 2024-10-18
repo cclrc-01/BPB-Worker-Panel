@@ -4328,7 +4328,7 @@ var worker_default = {
               }
             });
           default:
-            url.hostname = "news.sina.com cn";
+            url.hostname = "news.sina.com.cn";
             url.protocol = "https:";
             request = new Request(url, request);
             return await fetch(request);
